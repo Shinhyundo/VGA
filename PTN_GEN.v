@@ -4,7 +4,7 @@ module PTN_GEN
     //1920x1080에서 대략 비율 맞춰서 blank 범위를 포함한 total display 크기를 설정했습니다.
     parameter ACTIVE_VERTICAL = 1080    ,
     parameter ACTICE_HORIZONTAL = 1920  ,
-    parameter TOTAL_VERTICAL = 1500     ,
+    parameter TOTAL_VERTICAL = 1400     ,
     parameter TOTAL_HORIZONTAL = 2400   ,
     parameter COUNT_DEPTH = 12          ,      
     parameter PIXEL_DATA = 8            ,

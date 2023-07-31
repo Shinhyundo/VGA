@@ -10,7 +10,7 @@ module TENSONES
     output  [W-1:0] o_ONES
 );
 
-    localparam TOTAL_VERTICAL = 12'd1500;
+    localparam TOTAL_VERTICAL = 12'd1400;
     localparam TOTAL_HORIZONTAL = 12'd2400;
 
     reg     [W-1:0] r_TENS;
