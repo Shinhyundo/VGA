@@ -66,25 +66,19 @@ module PTN_GEN
         r_o_R_data = 8'd0;
         r_o_G_data = 8'd0;
         r_o_B_data = 8'd0;
-        /*
-        if (w_Vcnt >= 12'd1080) begin
-            r_o_R_data = 8'd0;
-            r_o_G_data = 8'd0;
-            r_o_B_data = 8'd0;
-        end
-        */
+        
         casex(Gray_level)
-            10'd1 : {r_o_R_data, r_o_G_data, r_o_B_data} = {8'd255, 8'd255, 8'd255};
-            10'd2 : {r_o_R_data, r_o_G_data, r_o_B_data} = {8'd229, 8'd229, 8'd229};
-            10'd4 : {r_o_R_data, r_o_G_data, r_o_B_data} = {8'd203, 8'd203, 8'd203};
-            10'd8 : {r_o_R_data, r_o_G_data, r_o_B_data} = {8'd177, 8'd177, 8'd177};
-            10'd16 : {r_o_R_data, r_o_G_data, r_o_B_data} = {8'd151, 8'd151, 8'd151};
-            10'd32 : {r_o_R_data, r_o_G_data, r_o_B_data} = {8'd126, 8'd126, 8'd126};
-            10'd64 : {r_o_R_data, r_o_G_data, r_o_B_data} = {8'd100, 8'd100, 8'd100};
-            10'd128 : {r_o_R_data, r_o_G_data, r_o_B_data} = {8'd64, 8'd64, 8'd64};
-            10'd256 : {r_o_R_data, r_o_G_data, r_o_B_data} = {8'd58, 8'd58, 8'd58}; 
-            10'd512 : {r_o_R_data, r_o_G_data, r_o_B_data} = {8'd26, 8'd26, 8'd26};
-            default : {r_o_R_data, r_o_G_data, r_o_B_data} = {8'd0, 8'd0, 8'd0};
+            10'd1 : {r_o_R_data, r_o_G_data, r_o_B_data} = {8'd26, 8'd26, 8'd26};
+            10'd2 : {r_o_R_data, r_o_G_data, r_o_B_data} = {8'd58, 8'd58, 8'd58};
+            10'd4 : {r_o_R_data, r_o_G_data, r_o_B_data} = {8'd64, 8'd64, 8'd64};
+            10'd8 : {r_o_R_data, r_o_G_data, r_o_B_data} = {8'd100, 8'd100, 8'd100};
+            10'd16 : {r_o_R_data, r_o_G_data, r_o_B_data} = {8'd126, 8'd126, 8'd126};
+            10'd32 : {r_o_R_data, r_o_G_data, r_o_B_data} = {8'd151, 8'd151, 8'd151};
+            10'd64 : {r_o_R_data, r_o_G_data, r_o_B_data} = {8'd177, 8'd177, 8'd177};
+            10'd128 : {r_o_R_data, r_o_G_data, r_o_B_data} = {8'd203, 8'd203, 8'd203};
+            10'd256 : {r_o_R_data, r_o_G_data, r_o_B_data} = {8'd229, 8'd229, 8'd229}; 
+            10'd512 : {r_o_R_data, r_o_G_data, r_o_B_data} = {8'd255, 8'd255, 8'd255};
+            default : {r_o_R_data, r_o_G_data, r_o_B_data} = {8'd255, 8'd255, 8'd255};
         endcase
 
 
