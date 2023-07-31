@@ -1,0 +1,35 @@
+[*]
+[*] GTKWave Analyzer v3.3.104 (w)1999-2020 BSI
+[*] Mon Jul 31 17:32:57 2023
+[*]
+[dumpfile] "/home/hyundo/Github/VGA/test.vcd"
+[dumpfile_mtime] "Mon Jul 31 17:31:51 2023"
+[dumpfile_size] 339196398
+[savefile] "/home/hyundo/Github/VGA/wave.gtkw"
+[timestart] 0
+[size] 1000 600
+[pos] -1 -1
+*-34.219280 30000000000 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+[treeopen] tb_PTN_GEN.
+[sst_width] 214
+[signals_width] 134
+[sst_expanded] 1
+[sst_vpaned_height] 154
+@200
+-input
+@28
+tb_PTN_GEN.i_clk
+tb_PTN_GEN.i_rst
+tb_PTN_GEN.i_PTN_type
+@200
+-
+-output
+@24
+tb_PTN_GEN.o_R_data[7:0]
+tb_PTN_GEN.o_G_data[7:0]
+tb_PTN_GEN.o_B_data[7:0]
+tb_PTN_GEN.o_VSync
+@28
+tb_PTN_GEN.o_DE
+[pattern_trace] 1
+[pattern_trace] 0
